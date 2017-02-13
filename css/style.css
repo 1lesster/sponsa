@@ -448,6 +448,24 @@ footer .social > li{
 	.category-block{
 		height: calc(40vh);
 	}
+	.main-header{
+	    height: 60px;
+	    -webkit-box-align: center;
+	    align-items: center;
+	    display: -webkit-box;
+	    display: -moz-box;
+	    display: -ms-flexbox;
+	    display: -webkit-flex;
+	    display: flex;
+	    -webkit-box-pack: justify;
+	    -webkit-justify-content: space-between;
+	    justify-content: space-between;
+	    -webkit-flex-wrap: wrap;
+	    -moz-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	    -o-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	}
 	.main-header h1,
 	.cont-row span{
 		display: none;
