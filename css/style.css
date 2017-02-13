@@ -68,7 +68,6 @@ body{
 	z-index: 200;
 	height: 140px;
 	padding: 20px 40px;
-	overflow: hidden;
 }
 .main-header .contacts{
 	position: absolute;
@@ -450,6 +449,7 @@ footer .social > li{
 	}
 	.main-header{
 		height: 60px;
+		padding: 0 40px;
 		-webkit-box-align: center;
 	    align-items: center;
 	    display: -webkit-box;
