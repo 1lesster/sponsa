@@ -252,6 +252,7 @@ h2.white:after, h2.white:before {
 	-webkit-transition: box-shadow .2s ease-in-out;
     -o-transition: box-shadow .2s ease-in-out;
     transition: box-shadow .2s ease-in-out;
+    margin-bottom: 25px;
 }
 .thumbnail a > img{
 	width: 100%;
@@ -297,6 +298,9 @@ h2.white:after, h2.white:before {
 .news-section .container{
 	margin-top: 30px; 
 	margin-bottom: 30px; 
+}
+.similar-products .container{
+	margin-top: 30px; 
 }
 .news-section .news{
 	border: 1px solid #ba86aa;
@@ -542,93 +546,5 @@ footer .social > li{
 	    display: block; 
 	    margin-bottom: 18px;
 	    text-align: center;
-	}
-	.flex-container{
-		-webkit-box-pack: center;
-		-webkit-justify-content: center;
-		justify-content: center;
-	}
-}
-@media screen and (max-width: 965px){
-	
-}
-@media screen and (max-width: 768px){
-	.instagram .insta-img {
-	    height: 60vw;
-	}
-	section.start{
-		background: url('../img/bg-min-lines2.png') repeat;
-	}
-}
-@media screen and (max-width: 670px){	
-	.start .contacts{
-		display: none;
-	}
-	h2{
-		font-size: 14px;
-	}
-	h2:after, h2:before{
-		margin: 0 15px;
-	}
-	.main-header .social{
-		margin: 15px 0;
-	}
-	.price > div,
-	h3{
-		padding: 0 10px;
-	}
-	.portfolio .col-md-3,
-	#video .col-md-6 {
-	    margin-bottom: 15px;
-	}
-}
-@media screen and (max-width: 570px){
-	.main-nav > li > a{
-		font-size: 13px;
-	}
-}
-@media screen and (max-width: 400px){
-	.main-header{
-		background: transparent;
-	}
-	.flex-container{
-		display: block;
-	}
-	.main-nav{
-		width: 50%;
-		margin: 0 auto;
-		text-align: center;
-	}
-	.main-nav > li{
-		display: block;
-		margin: 15px 0;
-		border: 0;
-	}
-	.main-nav > li:hover{
-		border: 0;
-	}
-	.main-nav > li > a{
-		font-size: 18px;
-	}
-	.main-header .social{
-		text-align: center;
-	    margin: 0;
-	    position: absolute;
-	    bottom: -100px;
-	    left: 50%;
-	    margin-left: -110px;
-	}
-	section.start{
-		overflow: hidden;
-		background-position-x: -350px;
-	}
-	.main-header{
-		bottom: 50%;
-		margin-bottom: -160px;
-	}
-	.logo{
-		display: block;
-		width: 112px;
-		margin: 30px auto 0;
 	}
 }
